@@ -1,0 +1,22 @@
+.footer {
+  &__wrapper {
+    @media (max-width: $mobile) {
+      display: flex;
+      flex-direction: column;
+      gap: $base-spacing-unit;
+    }
+
+    @media (max-width: $tablet) {}
+    @media (max-width: $desktop) {}
+  }
+}
+
+.footer__wrapper__contact ul {
+
+  @media (max-width: $mobile) {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+

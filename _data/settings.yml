@@ -1,0 +1,42 @@
+#-------------------------------
+# Site Settings
+title: Conversalo
+description: Conversalo is an AI Therapist service on your WhatsApp
+color_scheme: auto # You have the option to choose between three modes: auto, light, and dark. The default mode is set to auto, which means that the color scheme will automatically adapt based on your operating system settings. This way, you can enjoy a personalized experience without having to manually switch between light and dark modes.
+
+stats:
+  enable: true
+  stats_title: 'Live Stats'
+
+stats_items:
+  - title: 'Conversalo Now'
+    stat: '503'
+    description: 'Online Users'
+
+  - title: 'Conversalo Community'
+    stat: '10.356'
+    description: 'Total Users'
+
+  - title: 'Always Reliable'
+    stat: '99%'
+    description: 'Messages Delivered'
+
+testimonials:
+  enable: true
+  testimonials_title: "Conversalo Testimonials"
+
+testimonial_items:
+  - name: "Andres Urdaneta"
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    designation: "Software Developer"
+    content : "The incredible attention to detail displayed by this team is commendable. Every aspect of our project, no matter how small, was handled with precision and care. The result is a product that reflects their commitment to excellence."
+
+  - name: "Simon Barich"
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    designation: "Lawyer & Entrepreneur"
+    content: "The incredible attention to detail displayed by this team is commendable. Every aspect of our project, no matter how small, was handled with precision and care. The result is a product that reflects their commitment to excellence."
+
+  - name: "Hacobo Barich"
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    designation: "Economist & Entrepreneur"
+    content: "The incredible attention to detail displayed by this team is commendable. Every aspect of our project, no matter how small, was handled with precision and care. The result is a product that reflects their commitment to excellence."

@@ -1,0 +1,37 @@
+.stats {}
+
+.stats__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: $base-spacing-unit * 2;
+
+  @media (max-width: $tablet) {
+    display: flex;
+    flex-direction: column;
+    gap: $base-spacing-unit * 2;
+  }
+}
+
+.stats__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.stats__item__stat {
+  font-size: $base-font-size * 2.5;
+  font-family: "dela-gothic-one", Helvetica, -apple-system, sans-serif;
+}
+
+.stats__item__title {
+  font-size: $base-font-size - 2;
+}
+
+.stats__item__description {
+  font-size: $base-font-size;
+  font-weight: 400;
+  font-family: "dela-gothic-one", Helvetica, -apple-system, sans-serif;
+}

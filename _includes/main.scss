@@ -1,0 +1,42 @@
+/*!------------------------------------------------------------------
+[MAIN STYLESHEET]
+-------------------------------------------------------------------*/
+
+@import '0-settings/variables.scss';
+@import '0-settings/color-scheme';
+@import '0-settings/mixins';
+@import '0-settings/helpers';
+
+/* =======================
+:: 1-Tools and Libs
+======================= */
+/* >>>>>>>>>>>>>> :: 1.1-Normalize <<<<<<<<<<<<<<< */
+@import '1-tools/normalize';
+/* >>>>>>>>>>>>>> :: 1.2-Reset <<<<<<<<<<<<<<< */
+@import '1-tools/reset';
+/* >>>>>>>>>>>>>> :: 1.3-Shared <<<<<<<<<<<<<<< */
+@import '1-tools/shared';
+/* >>>>>>>>>>>>>> :: 1.4-Syntax Highlighting <<<<<<<<<<<<<<< */
+@import '1-tools/syntax-highlighting';
+/* >>>>>>>>>>>>>> :: 1.5-Grid <<<<<<<<<<<<<<< */
+@import '1-tools/grid';
+/* >>>>>>>>>>>>>> :: 1.6-Splide <<<<<<<<<<<<<<< */
+@import '1-tools/splide';
+/* >>>>>>>>>>>>>> :: 1.7-Animate <<<<<<<<<<<<<<< */
+@import '1-tools/animate';
+
+/* =======================
+:: 2-Base Styles
+======================= */
+/* >>>>>>>>>>>>>> :: 2.1-Base <<<<<<<<<<<<<<< */
+@import '2-base/base';
+
+/* =======================
+:: 3-Modules
+======================= */
+@import '3-modules/header';
+@import '3-modules/hero';
+@import '3-modules/section';
+@import '3-modules/stats';
+@import '3-modules/testimonials';
+@import '3-modules/footer';

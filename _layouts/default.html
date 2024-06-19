@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body class="{% if site.data.settings.color_scheme == "auto" %}scheme--toggle{% else %}scheme--{{ site.data.settings.color_scheme }}{% endif %}">
+
+  {% include header.html %}
+
+  <main class="content">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+
+  <script src="{{ site.baseurl }}/js/scripts.js"></script>
+  <script src="{{ site.baseurl }}/js/common.js"></script>
+</body>
+</html>

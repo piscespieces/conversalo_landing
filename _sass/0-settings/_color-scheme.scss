@@ -2,6 +2,8 @@
 
 @mixin scheme-light {
   --primary-color: #3898d4;
+  --primary-color-light: #{lighten(#3898d4, 35%)};
+  --primary-color-dark: #{darken(#3898d4, 35%)};
   --white: #fff;
   --light-gray: #f5f5f5;
   --lighten-gray: #e6e6e6;
