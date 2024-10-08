@@ -1,0 +1,6 @@
+.main-bg {
+    background-image: url('../images/bg.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
