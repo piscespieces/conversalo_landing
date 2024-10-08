@@ -1,6 +1,9 @@
 url: 'https://conversalo.ai'
 baseurl: '/'
 title: 'Conversalo'
+site: "Conversalo"
+description: "Conversalo es un chatbot de terapia IA en WhatsApp, especializado en Terapia Cognitivo Conductual (TCC), que ofrece apoyo emocional y psicológico gratuito, confidencial y siempre disponible."
+image: "/assets/images/opengraph.png"
 
 plugins:
   - jekyll-postcss
