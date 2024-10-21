@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         document.getElementById('email-input').value = '';
         const button = document.getElementById('submit-button')
-        button.textContent = 'Te agregamos a la lista de espera!';
+        button.textContent = 'Te enviamos el acceso por email!';
 
       })
       .catch((error) => {
