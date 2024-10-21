@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .main-bg {
     background-image: url('../images/bg.png'); /* Replace with your image path */
     background-size: cover;
